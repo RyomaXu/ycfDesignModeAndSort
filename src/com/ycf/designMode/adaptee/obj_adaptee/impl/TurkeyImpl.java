@@ -7,7 +7,6 @@ public class TurkeyImpl implements Turkey {
 	@Override
 	public void gobble() {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
