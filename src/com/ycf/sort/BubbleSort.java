@@ -19,12 +19,4 @@ public class BubbleSort {
     	return target;
     }
     
-    public static void main(String[] args) {
-		int[] nums={1,5,6,3,88,33};
-		BubbleSort bubbleSort=new BubbleSort();
-		bubbleSort.sort(nums);
-		for (int i = 0; i < nums.length; i++) {
-			System.out.println(nums[i]);
-		}
-	}
 }

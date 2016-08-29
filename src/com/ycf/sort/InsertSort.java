@@ -24,13 +24,5 @@ public class InsertSort {
 		return target;
 	}
 
-	public static void main(String[] args) {
-		int[] nums={1,5,6,3,9999,6,88,33,22,111};
-		InsertSort selectSort=new InsertSort();
-		selectSort.sort(nums);
-		for (int i = 0; i < nums.length; i++) {
-			System.out.println(nums[i]);
-		}
-	}
 
 }

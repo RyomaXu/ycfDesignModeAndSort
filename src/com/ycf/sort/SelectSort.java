@@ -27,14 +27,5 @@ public class SelectSort {
 		return target;
 	}
 	
-	public static void main(String[] args) {
-		int[] nums={1,5,6,3,9999,6,88,33,22,111};
-		SelectSort selectSort=new SelectSort();
-		selectSort.sort(nums);
-		for (int i = 0; i < nums.length; i++) {
-			System.out.println(nums[i]);
-		}
-
-	}
 
 }

@@ -45,13 +45,5 @@ public class QuickSort {
 
 
 
-	public static void main(String[] args) {
-		int[] nums={1,5,6,3,88,33,22,111};
-		QuickSort quickSort=new QuickSort();
-		quickSort.sort(nums,0,nums.length-1);
-		for (int i = 0; i < nums.length; i++) {
-			System.out.println(nums[i]);
-		}
-	}
 
 }

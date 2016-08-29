@@ -66,13 +66,5 @@ public class MergeSort {
 	}
     
 	
-	public static void main(String[] args) {
-			int[] nums={1,5,6,3,9999,6,88,33,22,111};
-			MergeSort mergeSort=new MergeSort();
-			mergeSort.sort(nums,0,nums.length-1);
-			for (int i = 0; i < nums.length; i++) {
-				System.out.println(nums[i]);
-			}
-	}
     
 }
