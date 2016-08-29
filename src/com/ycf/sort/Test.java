@@ -1,7 +1,11 @@
 package com.ycf.sort;
 
 import static org.junit.Assert.*;
-
+/**
+ * 测试类
+ * @author yan gui
+ *
+ */
 public class Test {
 
 	@org.junit.Test
